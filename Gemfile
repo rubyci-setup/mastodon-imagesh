@@ -106,6 +106,7 @@ group :development, :test do
   gem 'pry-byebug', '~> 3.10'
   gem 'pry-rails', '~> 0.3'
   gem 'rspec-rails', '~> 5.1'
+  gem 'fast_ci', '~> 1.0'
 end
 
 group :production, :test do
@@ -123,6 +124,7 @@ group :test do
   gem 'webmock', '~> 3.18'
   gem 'rspec_junit_formatter', '~> 0.6'
   gem 'rack-test', '~> 2.0'
+  # gem 'fast_ci'
 end
 
 group :development do
